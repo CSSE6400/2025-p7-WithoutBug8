@@ -1,0 +1,19 @@
+# POST  http://localhost:6400/api/v1/todos/ical
+
+# task_id = f0ed9539-8c9e-45e0-86b7-12d627219132
+
+
+# GET http://localhost:6400/api/v1/todos/ical/b7eb3743-5e56-4ee4-9d2b-f36c8eb8d309/status
+
+
+GET http://localhost:6400/api/v1/todos/ical/b7eb3743-5e56-4ee4-9d2b-f36c8eb8d309/result
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Taskoverflow Calendar//mxm.dk//
+BEGIN:VEVENT
+SUMMARY:Project Proposal
+DTSTART:20230403T140000
+UID:1
+DESCRIPTION:CSSE6400 Project Proposal Due
+END:VEVENT
+END:VCALENDAR

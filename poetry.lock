@@ -461,6 +461,26 @@ testing = ["coverage", "eventlet", "gevent", "pytest", "pytest-cov"]
 tornado = ["tornado (>=0.2)"]
 
 [[package]]
+name = "icalendar"
+version = "6.1.3"
+description = "iCalendar parser/generator"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "icalendar-6.1.3-py3-none-any.whl", hash = "sha256:11eb5d21a1a9e119a6efc0f9e38f2cf1622ef97777cd25fb0dd7074d393a2a8d"},
+    {file = "icalendar-6.1.3.tar.gz", hash = "sha256:4aef710ff205925b3947fe69ed00f4e142c6a49b5533fca6cc2fdde5a6f62e66"},
+]
+
+[package.dependencies]
+backports-zoneinfo = {version = "*", markers = "python_version < \"3.9\""}
+python-dateutil = "*"
+tzdata = "*"
+
+[package.extras]
+test = ["coverage", "hypothesis", "pytest", "pytz"]
+
+[[package]]
 name = "importlib-metadata"
 version = "8.5.0"
 description = "Read metadata from Python packages"
@@ -1077,4 +1097,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "868d3bfe535cd3735460502331fd928705d2c5bb7522182a16437175e004ceb7"
+content-hash = "bd75a9c21993f1abf8856b9ccd8a7940651b55c3b20ef36c3d6e6b39e3ce8589"
