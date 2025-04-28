@@ -2,6 +2,9 @@
 # CSSE6400 Week 7 Practical
 
 [English](README.md) | [简体中文Chinese](README_ZH.md)
+
+
+
 Deploying container images to AWS ECR and using Celery with Redis and SQS.
 
 Please see the [instructions](https://csse6400.uqcloud.net/practicals/week07) for more details.
